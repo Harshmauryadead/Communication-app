@@ -1,0 +1,77 @@
+* {
+	margin: 0;
+}
+
+body {
+	height: 100vh;
+}
+
+.main {
+	height: 100%;
+	overflow: hidden;
+	background-color: #0a043c;
+}
+
+.container {
+	background-color: ivory;
+	height: 95%;
+	width: 90%;
+}
+
+.row {
+	height: 100%;
+}
+
+#sidebar {
+	background-color: #440a67;
+	padding: 1rem;
+	max-height: 100%;
+	overflow-y: scroll;
+	width: 25%;
+}
+#sidebar::-webkit-scrollbar {
+	width: 0 !important;
+}
+
+#sidebar > .card {
+	width: 90%;
+}
+
+#col_2 {
+	padding: 1rem;
+	flex-direction: column;
+	width: 75%;
+	max-height: 100%;
+}
+
+#message-box {
+	margin-top: 0.1rem;
+}
+
+button {
+	margin-left: 0.5rem;
+}
+
+.message {
+	margin: 0.5rem;
+}
+
+#message {
+	background-color: #1e212d;
+	max-height: 100%;
+	overflow-y: scroll;
+}
+#message::-webkit-scrollbar {
+	width: 0 !important;
+}
+
+.card {
+	width: fit-content;
+	max-width: 25rem;
+	min-width: 0rem;
+}
+
+.card-body img {
+	max-width: 20rem;
+	text-align: center;
+}
